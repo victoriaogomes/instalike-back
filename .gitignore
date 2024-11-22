@@ -131,3 +131,6 @@ dist
 
 # IntelliJ file
 .idea/
+
+# Env var
+.env
