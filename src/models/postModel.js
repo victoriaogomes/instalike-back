@@ -1,6 +1,7 @@
 // Connect to the database using the provided connection string
 import connectToDb from "../config/dbConfig.js";
 import {ObjectId} from "mongodb";
+import 'dotenv/config';
 
 const dbConnection = await connectToDb(process.env.CONNECTION_STRING);
 
